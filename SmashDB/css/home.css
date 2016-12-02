@@ -1,0 +1,89 @@
+/* home css */
+
+html
+{
+		min-height: 100%;
+	min-width: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	background-image: url('../assets/bg1.jpg');
+	background-repeat: no-repeat;
+}
+
+a#logo
+{
+	float: left;
+	font-size: 37px;
+}
+
+#search
+{
+	width: 250px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    
+    background-position: 10px 3px; /* place magnifying glass */
+    background-repeat: no-repeat; /* image doesn't not repeat */
+    padding: 4px 20px 4px 40px; /* top, right, bottom, left for "Search tournaments..." */
+	border-radius: 0.5em; /* make it round */
+}
+
+#login 
+{
+	float: right;
+}
+
+#signup
+{
+	float: right;
+}
+
+a#login
+{
+	color: #313235; /* login link color*/
+}
+
+.SmashBros 
+{
+	text-align:center;
+	/*background-image: url('../assets/bg1.jpg');*/
+	 background-size: 100%; 
+	margin: -8px;
+	background-repeat: repeat;
+
+	
+}
+
+#SmashColumnOne
+{
+    display:inline-block;
+    margin:5px 20px;
+    padding:5px;
+    
+    /* border:1px solid #CCC; */
+}
+
+#SmashColumnTwo
+{
+    display:inline-block;
+    margin:5px 20px;
+    padding:5px;
+    
+    /* border:1px solid #CCC; */
+}
+
+img
+{
+	border-radius: 0.5em;
+}
+
+a
+{
+	text-decoration: none; /* Remove underscore from links */
+	padding-right: 20px; /* Spacing between links */
+	color: #bf382b; /* All links' color except login link */
+}
