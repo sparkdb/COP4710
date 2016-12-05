@@ -1,0 +1,47 @@
+/* home css */
+
+html
+{
+	min-height: 100%;
+	min-width: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	background-image: url('../assets/bg3.jpg');
+	background-repeat: no-repeat;
+}
+
+.SmashBros 
+{
+	text-align:center;
+	/*background-image: url('../assets/bg1.jpg');*/
+	 background-size: 100%; 
+	margin: -8px;
+	background-repeat: repeat;
+
+	
+}
+
+#SmashColumnOne
+{
+    display:inline-block;
+    margin:5px 20px;
+    padding:5px;
+    
+    /* border:1px solid #CCC; */
+}
+
+#SmashColumnTwo
+{
+    display:inline-block;
+    margin:5px 20px;
+    padding:5px;
+    
+    /* border:1px solid #CCC; */
+}
+
+img
+{
+	border-radius: 0.5em;
+	border: solid 3px #98d4f3;
+}
