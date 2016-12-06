@@ -1,0 +1,35 @@
+a:link
+{
+	text-decoration: none;
+	padding-right: 15px;
+	color: white;
+}
+
+a:visited
+{
+	color: white;
+}
+
+.header
+{
+	text-align: center;	
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+	display: block;
+	background: linear-gradient(to bottom, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%);
+	color: #000;
+	padding: 8px 16px;
+	text-decoration: none;
+	border-radius: 0.1em;
+}
+
+#login:link
+{
+	color: white;
+	float: right;
+}
+#login:visited
+{
+	color: white;
+	float: right;
+}
